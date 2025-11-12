@@ -14,7 +14,7 @@ from telegram.ext import (
 )
 
 # ------------ إعداد ------------
-TOKEN = "8210129529:AAGm46KmMMpE2YxDhPS17tNkt-BBTdsKOoU"
+TOKEN = "YOUR_BOT_TOKEN_HEREU"
 MAX_FILE_SIZE = 30 * 1024 * 1024
 
 SESSIONS: Dict[int, Dict[str, Any]] = {}
