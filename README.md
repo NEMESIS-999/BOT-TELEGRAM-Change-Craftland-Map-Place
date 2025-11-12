@@ -1,2 +1,146 @@
 # BOT-TELEGRAM-Change-Craftland-Map-Place
-Change Craftland Map Place Edit Craftland meta File
+مفهوم. إليك النسخة النهائية من الملفين **`LICENSE`** و **`README.md`** مع اسمك ومصدر مشروعك مضافين كما طلبت.
+
+---
+
+### 📄 **LICENSE**
+
+```
+MIT License
+
+Copyright (c) 2025 N6
+Telegram: @O000000000000o_X_o000000000000O
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice, this permission notice, and the Telegram contact
+must be included in all copies or substantial portions of the Software.
+
+Users are free to modify, share, or extend this software **as long as** they
+credit the original source by linking to the following repository:
+
+👉 https://github.com/NEMESIS-999/BOT-TELEGRAM-Change-Craftland-Map-Place.git
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+---
+
+### 🧾 **README.md**
+
+````markdown
+# 🔍 Meta Analyzer & Map Modifier Bot (Telegram)
+
+بوت تيليجرام ذكي لتحليل وتعديل ملفات `.meta` الخاصة بخوادم **Craftland / Free Fire Custom Maps**.  
+يُظهر تفاصيل دقيقة عن الخريطة، ويمكنه استبدال كود الخريطة داخل الملف بسهولة.
+
+---
+
+## ⚙️ المميزات
+
+- تحليل كامل لملفات `.meta` (نصوص + بيانات ثنائية)
+- استخراج:
+  - اسم الخريطة
+  - UID
+  - صاحب الخريطة
+  - نوع الخريطة (الكود)
+  - الوصف الكامل مع ألوان النصوص
+  - آخر تعديل وتواريخ داخلية
+- تعديل كود الخريطة مباشرة
+- زر **رجوع للقائمة الرئيسية** في جميع الخطوات
+- دعم لغوي كامل (عربي + إنجليزي)
+- يعمل على Python 3.9 وما فوق
+
+---
+
+## 🧩 التثبيت
+
+```bash
+git clone https://github.com/NEMESIS-999/BOT-TELEGRAM-Change-Craftland-Map-Place.git
+cd BOT-TELEGRAM-Change-Craftland-Map-Place
+pip install python-telegram-bot==20.6
+````
+
+---
+
+## 🚀 التشغيل
+
+1. افتح ملف `main.py`
+2. ضع رمز البوت الخاص بك في المتغير:
+
+   ```python
+   TOKEN = "YOUR_BOT_TOKEN_HERE"
+   ```
+3. ثم شغّل البوت بالأمر:
+
+   ```bash
+   python3 main.py
+   ```
+4. أرسل أي ملف بصيغة `.meta` إلى البوت.
+
+---
+
+## 📄 مثال ناتج التحليل
+
+```
+📄 اسم ملف: ProjectData_slot_1.meta
+🏝 اسم خريطه: MAP_Assault_Cs_1.6
+👤 صاحب الخريطه: غير متوفر
+🆔 UID = 123456789
+🌍 نوع خريطه: NOLAND
+📝 وصف خريطه:
+You map offers a fierce battle in a harsh wasteland...
+🎨 أكواد اللون: [FF00], [00FFFF]
+🕓 آخر تعديل محتمل: 2025-11-10 21:30
+```
+
+---
+
+## 🧠 القوائم داخل البوت
+
+* **عرض المعلومات 🛈** → لعرض جميع تفاصيل الملف
+* **تغيير الخريطة 🔁** → لاختيار كود خريطة جديد
+* **رجوع ↩️** → للعودة للقائمة الرئيسية بدون إعادة إرسال الملف
+
+---
+
+## 🛠️ التعديل والاستخدام
+
+يمكن لأي شخص استخدام هذا المشروع، نسخه، أو تعديله بحرية بشرط أن:
+
+1. يذكر المصدر الأصلي.
+2. يضع رابط المشروع التالي في أي إصدار معدل:
+
+👉 **[https://github.com/NEMESIS-999/BOT-TELEGRAM-Change-Craftland-Map-Place.git](https://github.com/NEMESIS-999/BOT-TELEGRAM-Change-Craftland-Map-Place.git)**
+
+---
+
+## 👤 معلومات المؤلف
+
+**Name:** N6
+**Telegram:** [@O000000000000o_X_o000000000000O](https://t.me/O000000000000o_X_o000000000000O)
+**GitHub:** [NEMESIS-999](https://github.com/NEMESIS-999)
+
+---
+
+## 🛡️ الترخيص
+
+مرخص تحت **MIT License**.
+يُسمح بالاستخدام، التوزيع، والتعديل بشرط الإشارة إلى المصدر الأصلي.
+
+```
+
+---
+
+```
